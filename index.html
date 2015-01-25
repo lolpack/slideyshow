@@ -1,0 +1,28 @@
+<head>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div class="main-content">
+    <div class="js-instructions">
+      <h1>SlideyShow</h1>
+      <h2 id="fb-welcome"></h2>
+      <h3>Easy Facebook Slideshows</h3>
+      <div class="login-instructions">Login into Facebook to get started!</div>
+      <div class="slideshow-selector"></div>
+      <div class="js-album-radio"></div>
+      <form class="js-attendee-check"></form>
+    </div>
+  </div>
+  <div class="js-slide-show-options slide-show-options hide-content">
+    <div>Slide Show Options</div>
+    <form>
+      <input type='checkbox' class="js-repeat-toggle"/>Repeat Slideshow
+      <input type="range" class="js-seconds-slider" min="5" max="100" step="1"/>
+        <div>Seconds between slides<div class="js-seconds-label"></div></div>
+      <input type='submit' value='Okay!' class="js-okay-options">
+      <input type='submit' value='Cancel!' class="js-cancel-options">
+    </form>
+  </div>
+</body>
+<script type="text/javascript" src="fb-logic.js"></script>
